@@ -1,0 +1,197 @@
+{
+  "timestamp": "2025-08-11T13:22:11.272658",
+  "basic_connectivity": {
+    "https://api.partstech.com": {
+      "reachable": true,
+      "status_code": 403,
+      "response_time_ms": 377,
+      "error": "CloudFront 403 - Possible geographic restriction",
+      "headers": {
+        "Server": "CloudFront",
+        "Date": "Mon, 11 Aug 2025 18:22:11 GMT",
+        "Content-Type": "text/html",
+        "Content-Length": "919",
+        "Connection": "keep-alive",
+        "X-Cache": "Error from cloudfront",
+        "Via": "1.1 fd47470fbb1aede5e9fa758a8091a7a0.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "MIA50-P3",
+        "Alt-Svc": "h3=\":443\"; ma=86400",
+        "X-Amz-Cf-Id": "y9Lp9HAAjQOUCxAkBPzvUYpR7_UEFF8s3M0vt6_aLJhM6w6IPO_uAw=="
+      },
+      "cloudfront_blocked": true,
+      "ip_restriction": false
+    },
+    "https://api.beta.partstech.com": {
+      "reachable": true,
+      "status_code": 403,
+      "response_time_ms": 308,
+      "error": "CloudFront 403 - Possible geographic restriction",
+      "headers": {
+        "Server": "CloudFront",
+        "Date": "Mon, 11 Aug 2025 18:22:11 GMT",
+        "Content-Type": "text/html",
+        "Content-Length": "919",
+        "Connection": "keep-alive",
+        "X-Cache": "Error from cloudfront",
+        "Via": "1.1 a61500b02203448696480e37b5438a58.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "MIA3-P7",
+        "Alt-Svc": "h3=\":443\"; ma=86400",
+        "X-Amz-Cf-Id": "G5CDsqOstVoxm4rd5diGqfkw92Xf8uBALZdUYz4Y795whOiEtTn2Cg=="
+      },
+      "cloudfront_blocked": true,
+      "ip_restriction": false
+    },
+    "https://platform.partstech.com/api": {
+      "reachable": false,
+      "status_code": null,
+      "response_time_ms": null,
+      "error": "Connection failed: HTTPSConnectionPool(host='platform.partstech.com', port=443): Max retries exceeded with url: /api (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)')))",
+      "headers": {},
+      "cloudfront_blocked": false,
+      "ip_restriction": false
+    },
+    "https://app.partstech.com/api": {
+      "reachable": true,
+      "status_code": 403,
+      "response_time_ms": 294,
+      "error": "CloudFront 403 - Possible geographic restriction",
+      "headers": {
+        "Server": "CloudFront",
+        "Date": "Mon, 11 Aug 2025 18:22:12 GMT",
+        "Content-Type": "text/html",
+        "Content-Length": "919",
+        "Connection": "keep-alive",
+        "X-Cache": "Error from cloudfront",
+        "Via": "1.1 6ae3c60d8a1e4fba1ffac3aabbbdfcca.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "MIA50-P3",
+        "Alt-Svc": "h3=\":443\"; ma=86400",
+        "X-Amz-Cf-Id": "UhH18E5YfdnAUnMx-vHflYz6Ia3g7w9AhmkverRX0i9J6zyDe_ogrw=="
+      },
+      "cloudfront_blocked": true,
+      "ip_restriction": false
+    },
+    "https://backend.partstech.com/api": {
+      "reachable": false,
+      "status_code": null,
+      "response_time_ms": null,
+      "error": "Connection failed: HTTPSConnectionPool(host='backend.partstech.com', port=443): Max retries exceeded with url: /api (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)')))",
+      "headers": {},
+      "cloudfront_blocked": false,
+      "ip_restriction": false
+    }
+  },
+  "authentication_tests": {
+    "jwt_oauth": {
+      "success": false,
+      "status_code": 403,
+      "response": null,
+      "error": "HTTP 403: <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR",
+      "access_token": null
+    },
+    "basic_auth": {
+      "success": false,
+      "status_code": 403,
+      "response": null,
+      "error": "HTTP 403: <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR",
+      "access_token": null
+    },
+    "api_key_header": {
+      "success": false,
+      "status_code": 403,
+      "response": null,
+      "error": "HTTP 403: <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR",
+      "access_token": null
+    },
+    "bearer_token": {
+      "success": false,
+      "status_code": 403,
+      "response": null,
+      "error": "HTTP 403: <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR",
+      "access_token": null
+    }
+  },
+  "endpoint_discovery": {
+    "/oauth/access": {
+      "accessible": false,
+      "status_code": 403,
+      "needs_auth": false,
+      "needs_params": false,
+      "error": null
+    },
+    "/punchout/quote/create": {
+      "accessible": false,
+      "status_code": 403,
+      "needs_auth": false,
+      "needs_params": false,
+      "error": null
+    },
+    "/search": {
+      "accessible": false,
+      "status_code": 403,
+      "needs_auth": false,
+      "needs_params": false,
+      "error": null
+    },
+    "/api/search": {
+      "accessible": false,
+      "status_code": 403,
+      "needs_auth": false,
+      "needs_params": false,
+      "error": null
+    },
+    "/vin": {
+      "accessible": false,
+      "status_code": 403,
+      "needs_auth": false,
+      "needs_params": false,
+      "error": null
+    },
+    "/api/vin": {
+      "accessible": false,
+      "status_code": 403,
+      "needs_auth": false,
+      "needs_params": false,
+      "error": null
+    },
+    "/parts": {
+      "accessible": false,
+      "status_code": 403,
+      "needs_auth": false,
+      "needs_params": false,
+      "error": null
+    },
+    "/api/parts": {
+      "accessible": false,
+      "status_code": 403,
+      "needs_auth": false,
+      "needs_params": false,
+      "error": null
+    },
+    "/status": {
+      "accessible": false,
+      "status_code": 403,
+      "needs_auth": false,
+      "needs_params": false,
+      "error": null
+    },
+    "/health": {
+      "accessible": false,
+      "status_code": 403,
+      "needs_auth": false,
+      "needs_params": false,
+      "error": null
+    },
+    "/ping": {
+      "accessible": false,
+      "status_code": 403,
+      "needs_auth": false,
+      "needs_params": false,
+      "error": null
+    }
+  },
+  "recommended_actions": [
+    "\ud83c\udf0d GEOGRAPHIC RESTRICTION: PartsTech API is blocked by CloudFront. This typically means the API is geographically restricted. Recommendation: Have your USA partner test from their location, or contact PartsTech support to whitelist your IP/location.",
+    "\ud83d\udd10 AUTHENTICATION ISSUE: All authentication methods failed. Possible issues: 1) Account needs activation, 2) API credentials expired, 3) Account suspended. Contact PartsTech support to verify account status.",
+    "\ud83d\udcde SUPPORT CONTACT: PartsTech support can be reached through their platform at https://app.partstech.com or through their documentation portal."
+  ]
+}
